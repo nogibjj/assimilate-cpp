@@ -3,8 +3,16 @@ Build a C++ template
 
 ## Lesson 1
 
+### Build a console calculator app in C++ 
+
+
+
+### Getting Started
+
 [Reference VS Code Docs](https://code.visualstudio.com/docs/languages/cpp)
 [Codespaces for CPP](https://devblogs.microsoft.com/cppblog/customizing-github-codespaces-for-cpp-projects/)
+[Microsoft Tutorials](https://learn.microsoft.com/en-us/cpp/cpp/?view=msvc-170)
+
 
 * Build a hello world C++
 * create `helloworld.cpp`
