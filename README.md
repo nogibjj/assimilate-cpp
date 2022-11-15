@@ -1,11 +1,22 @@
 # assimilate-cpp
 Build a C++ template
 
+## Lesson 2
+
+* Can I speed up compilation?  Why do I need all of this terminal commands?  Can use a `Makefile`?
+* Build a phrase repeater in C++.
+
 ## Lesson 1
 
 ### Build a console calculator app in C++ 
 
+Compile application:
 
+`clang++-11 CalculatorTutorial.cpp Calculator.cpp -o CalculatorTutorial.app`
+
+Run it:  
+
+`./CalculatorTutorial.app `
 
 ### Getting Started
 
