@@ -1,3 +1,5 @@
+[![C++11 CI](https://github.com/nogibjj/assimilate-cpp/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/nogibjj/assimilate-cpp/actions/workflows/c-cpp.yml)
+
 # assimilate-cpp
 Build a C++ template
 
