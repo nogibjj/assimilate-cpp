@@ -3,6 +3,11 @@
 # assimilate-cpp
 Build a C++ template
 
+## Lesson 3
+
+To Do:  How the heck do I get static analysis working for build system?
+
+
 ## Lesson 2
 
 * Can I speed up compilation?  Why do I need all of this terminal commands?  Can use a `Makefile`?
