@@ -1,5 +1,8 @@
 .vscode
 
+#ast 
+*.ast
+
 # Prerequisites
 *.d
 
