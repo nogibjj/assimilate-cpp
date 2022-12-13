@@ -3,10 +3,41 @@
 # assimilate-cpp
 Build a C++ template
 
+## Lesson 4
+
+Continue to go through entire Visual Studio Code documentation for C++:  https://code.visualstudio.com/docs/cpp/config-msvc
+
+
 ## Lesson 3
 
 To Do:  How the heck do I get static analysis working for build system?
+* Official Visual Studio Code Guide:  https://code.visualstudio.com/docs/cpp/config-msvc
 
+* `mkdir -p projects && cd projects`
+* `touch helloworld.cpp` and paste the following inside:
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    vector<string> msg {"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
+    msg.push_back("This is a new line");
+    for (const string& word : msg)
+    {
+        cout << word << " ";
+    }
+    cout << endl;
+}
+```
+
+* Hover over vector or string to get types
+
+* Finally, use the debugger and run, I chose: `"/usr/bin/gdb" --interpreter=mi -` and it worked.
 
 ## Lesson 2
 
